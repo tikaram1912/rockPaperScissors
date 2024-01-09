@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: rgb(251, 238, 218);
 }
 
 h1{
@@ -12,8 +13,8 @@ h1{
 }
 
 .choice{
-    height: 200px;
-    width: 200px;
+    height: 7rem;
+    width: 7rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -27,8 +28,8 @@ h1{
 }
 
 img{
-    height: 165px;
-    width: 165px;
+    height: 5rem;
+    width: 5rem;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -37,7 +38,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 1rem;
     margin-top: 5rem;
 }
 
@@ -46,7 +47,8 @@ img{
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    gap: 5rem;
+    gap: 4rem;
+    margin-top: 4rem;
 }
 
 #userScore, #compScore{
@@ -59,7 +61,7 @@ font-size: 4rem;
 #msg{
     background-color: rgb(7, 7, 78);
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
     display: inline;
     padding: 1rem;
     border-radius: 1rem;
